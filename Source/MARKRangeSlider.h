@@ -12,6 +12,12 @@
 @property (nonatomic, readonly) UIView *leftThumbView;
 @property (nonatomic, readonly) UIView *rightThumbView;
 
+@property (nonatomic) UIImageView *trackImageView;
+@property (nonatomic) UIImageView *rangeImageView;
+
+@property (nonatomic) UIImageView *leftThumbImageView;
+@property (nonatomic) UIImageView *rightThumbImageView;
+
 @property (nonatomic, assign) CGFloat minimumDistance;
 
 @property (nonatomic) BOOL pushable;

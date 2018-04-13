@@ -6,11 +6,6 @@ static NSString * const kMARKRangeSliderTrackRangeImage = @"rangeSliderTrackRang
 
 @interface MARKRangeSlider ()
 
-@property (nonatomic) UIImageView *trackImageView;
-@property (nonatomic) UIImageView *rangeImageView;
-
-@property (nonatomic) UIImageView *leftThumbImageView;
-@property (nonatomic) UIImageView *rightThumbImageView;
 
 @end
 
